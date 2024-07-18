@@ -1,0 +1,289 @@
+
+a{
+     text-decoration: none;
+     color:#59502f;
+     font-weight: bold;
+ }
+ .navbar {
+background-color: #C69774;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-content: center;
+gap: 30px;
+height: 70px;
+
+}
+.image {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+position: relative;
+top:70px;
+line-height: 60px;
+}
+img{
+border-radius: 50%;
+height:200px;
+width:200px;
+}      
+.button{
+background-color: rgb(182, 199, 170);
+font-family: "Roboto Slab", serif;
+
+height:50px;
+width:90px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+border-radius: 10%;
+}
+.content{
+font-family: "Playwrite HU", serif;
+display: flex;
+text-align: center;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
+font-size: xx-large;
+position: relative;
+top:210px;
+line-height: 80px;
+}
+.item {
+    overflow: hidden; /* Clears the float within the div */
+}
+.intro{
+font-family: "Roboto Slab", serif;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-content: center;
+font-size: x-large;
+margin-top: 90px;
+margin-left: 100px;
+margin-right: 100px;
+text-align: center;
+
+line-height: 40px;
+}
+.float{
+    border-radius: 0%; 
+
+    float: left;
+    margin-right:10px;
+    width:140px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+.aboutme{
+    font-family: "Roboto Slab", serif;
+    display:block;
+font-size: large;
+margin-left:20px;
+margin-right: 20px;
+margin-top: 30px;
+line-height: 40px;
+
+}
+.foot{
+background-color:rgb(182, 199, 170) ;
+display: inline;
+width: 100%;
+position: absolute;
+bottom: -700px;
+}
+.f {
+    background-color: rgb(182, 199, 170);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 0px;
+    margin: 0px;
+
+}
+.foo {
+    background-color: rgb(182, 199, 170);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 0px;
+    margin: 0px;
+
+}
+.pedge{
+display:flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+align-content: flex-start;
+}
+.f {
+    background-color: rgb(182, 199, 170);
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    margin-top: 120px;
+}
+.size{
+height: 50px;
+width: 50px;
+}
+.heart {
+ background-color: #6f4e37;
+ height: 30px;
+ width: 30px;
+ transform: rotate(-45deg);
+ position: absolute;
+}
+
+.heart:before,
+.heart:after {
+ content: "";
+ background-color: #6f4e37;
+ border-radius: 50%;
+ height: 30px;
+ width: 30px;
+ position: absolute;
+}
+
+.heart:before {
+ top: -15px;
+ left: 0;
+}
+
+.heart:after {
+ top: 0;
+ left: 15px;
+}
+
+.heart1 {
+ top: 150px;
+ right: 40px; /* Aligns to the right side */
+}
+
+.heart2 {
+ top: 150px;
+ left: 40px; /* Adjust positioning as needed */
+}
+.heart3{
+ top:556px;
+ right: 40px;
+}
+.heart4{
+ top:556px;
+ left: 40px;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgb(182, 199, 170);
+border-color: rgb(182, 199, 170);
+min-width: 160px;
+z-index: 1;
+}
+
+.dropdown-content a {
+
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(182, 199, 170)}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: rgb(182, 199, 170);
+}
+@media (max-width:550px){
+.content{
+ font-family: "Playwrite HU", serif;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ font-size: x-large;
+ top:210px;
+line-height: 60px;}
+img{
+border-radius: 50%;
+height:150px;
+width:150px;
+}
+.navbar {
+background-color: #C69774;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap:10px
+}
+.f {
+    background-color: rgb(182, 199, 170);
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.intro{
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: large;
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    
+    line-height: 40px;
+    }
+}
+
+
+
+@media (max-width:400px){
+.content{
+ font-family:"Playwrite HU", serif;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ font-size: large;
+ top:250px;
+line-height: 40px;
+}
+img{
+border-radius: 50%;
+height:120px;
+width:120px;
+}
+.navbar {
+background-color: #C69774;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap:3px
+}
+.intro{
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: medium;
+    margin-top: 90px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    
+    line-height: 40px;
+    }
+    
+}
